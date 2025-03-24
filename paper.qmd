@@ -26,20 +26,24 @@ format:
 bibliography: references.bib
 csl: chicago-author-date.csl
 abstract: |
-  Open source software (OSS) is powering much of our digital infrastructure. From hosting websites, to working with databases and advancement of Machine Learning models. Recently, OSS has received increased attention from the economic discipline. Some work is motivated by the curious incentive structures, the econmic value created through OSS or the available and detailed micro-data. The goal for this project is to openly and publically craft a literature review which summarises our findings about OSS, especially relating to economics. Inspired by OSS itself, this project is open to contribution from anyone. Reward in the form of co-authorship is given according to contribution.
+  Open source software (OSS) is powering much of our digital infrastructure. From hosting websites, to working with databases and advancement of Machine Learning models. Recently, OSS has received increased attention from the economic discipline. Some work is motivated by the curious incentive structures, the econmic value created through OSS or the available and detailed micro-data. The goal for this project is to openly and publically craft a literature review which summarises our findings about OSS relating to economic ideas. Inspired by OSS itself, this project is open to contribution from anyone. Reward in the form of co-authorship is given according to contribution (see contribution guidelines).
 
   
 thanks: |
-  Comments, questions, and feedback are welcome and can be directed to: \href{aaron.lohmann@uni-bielefeld.de}{aaron.lohmann@uni-bielefeld.de}.
+  Comments, questions, and feedback are welcome and can be submitting as an issue to the repository [https://github.com/aaron-lohmann/econ-oss](https://github.com/aaron-lohmann/econ-oss/issues). Alternatively, to: \href{aaron.lohmann@uni-bielefeld.de}{aaron.lohmann@uni-bielefeld.de}.
 linkcolor: NavyBlue
 citecolor: NavyBlue
 ---
 
+\begin{center}
+\bf{Contributions welcome!}
+\end{center}
+
 Contribution guidelines: 
 
-1. Contributions to this project must be made through a pull request to the repo https://github.com/aaron-lohmann/econ-oss. 
-2. Position in author listing will be propoertional to the amount of approved pull requests. Ties between the same amount of pull requests will be broken by the earliest contribution of an author.
-3. Co-authorship will be granted upon two approved pull requets.
+1. Contributions to this project must be made through a pull request to the repo [https://github.com/aaron-lohmann/econ-oss](https://github.com/aaron-lohmann/econ-oss).
+2. Position in author listing will be determind by the amount of approved pull requests. Ties between the same amount of pull requests will be broken by the earliest contribution of an author.
+3. Co-authorship will be granted upon two approved pull requets. One of these contributions must introduce a new citation.
 
 
 \newpage
@@ -47,7 +51,30 @@ Contribution guidelines:
 
 # Introduction {#sec-introduction}
 
+Open Source Software (OSS) is key to the functioning of the modern digital infrastructure. For economists some parts of OSS propose curious questions. Why do developers contribute? Can open development outpeform closed development? On the other hand, the detailed micro data on individuals allows to study questions that are relevant to a number of knowledge intensive sectors like patenting, R \& D and the development of Work from Home. OSS provides the rare oppurunity to track for a large group of workers who works when for how long at what time. Moreover, there are questions related to global integration. How do teams form across space, how much do teams across collaborate with each other? Yet, other another aspect for OSS is the network structure. One example is to study the adoption of technology. This review tries to be comprehensive. From descriptive papers to published datasets and novel and innovati ve insights. In the end, this paper addresses two groups of readers. Those that read for knowledge and look for answers and those that read for understanding, potentially seeking to enter the field of economics of OSS. 
+
+
+# Theory {#sec-theory}
+
+Theoretical contributions which directly answer questions about OSS. 
+
+
+# Datasets {#sec-datasets}
+
+What datasets are out there to study OSS? What are benefits of one versus the other? 
+
 See @schueller2022
+
+
+# The value of OSS {#sec-value}
+
+# Geographical composition and team formation {#sec-teams}
+
+# Team outcomes {#sec-outcomes}
+
+
+
+
 
 
 
