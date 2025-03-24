@@ -2,9 +2,7 @@
 title: "A comprehensive literature review of the economics of open source software"
 date: last-modified
 author:
-  - name: Aaron Lohmann
-    affiliations:
-      - Univeristy Bielefeld & IfW Kiel
+  - name: aaron-lohmann
 format:
   pdf:
     fontsize: 12pt
