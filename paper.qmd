@@ -1,0 +1,62 @@
+---
+title: "A comprehensive literature review of the economics of open source software"
+date: last-modified
+author:
+  - name: Aaron Lohmann
+    affiliations:
+      - Univeristy Bielefeld & IfW Kiel
+format:
+  pdf:
+    fontsize: 12pt
+    page-layout: full
+    number-sections: true
+    number-depth: 1
+    link-citations: true
+    keep-tex: true
+    template-partials: 
+      - title.tex
+    include-in-header:
+      text: |
+        \usepackage[noblocks]{authblk}
+        \renewcommand*{\Authsep}{, }
+        \renewcommand*{\Authand}{, }
+        \renewcommand*{\Authands}{, }
+        \renewcommand\Affilfont{\small}  
+                \usepackage[margin=1in]{geometry}  % Sets 1-inch margins
+                \usepackage[dvipsnames]{xcolor}
+        % \usepackage[top=1in, bottom=1in, left=0.8in, right=0.8in]{geometry}
+bibliography: references.bib
+csl: chicago-author-date.csl
+abstract: |
+  Open source software (OSS) is powering much of our digital infrastructure. From hosting websites, to working with databases and advancement of Machine Learning models. Recently, OSS has received increased attention from the economic discipline. Some work is motivated by the curious incentive structures, the econmic value created through OSS or the available and detailed micro-data. The goal for this project is to openly and publically craft a literature review which summarises our findings about OSS, especially relating to economics. Inspired by OSS itself, this project is open to contribution from anyone. Reward in the form of co-authorship is given according to contribution.
+
+  
+thanks: |
+  Comments, questions, and feedback are welcome and can be directed to: \href{aaron.lohmann@uni-bielefeld.de}{aaron.lohmann@uni-bielefeld.de}.
+linkcolor: NavyBlue
+citecolor: NavyBlue
+---
+
+Contribution guidelines: 
+
+1. Contributions to this project must be made through a pull request to the repo https://github.com/aaron-lohmann/econ-oss. 
+2. Position in author listing will be propoertional to the amount of approved pull requests. Ties between the same amount of pull requests will be broken by the earliest contribution of an author.
+3. Co-authorship will be granted upon two approved pull requets.
+
+
+\newpage
+
+
+# Introduction {#sec-introduction}
+
+See @schueller2022
+
+
+
+# References {#sec-references}
+
+
+
+
+::: {#refs}
+:::
