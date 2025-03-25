@@ -1,5 +1,5 @@
 ---
-title: "A comprehensive literature review of the economics of open source software"
+title: "Open sourcing the economics of open source: A comprehensive literature review"
 date: last-modified
 author:
   - name: aaron-lohmann
