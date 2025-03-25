@@ -88,3 +88,18 @@ See @schueller2022
 
 ::: {#refs}
 :::
+
+
+```{=tex}
+\setcounter{section}{0}
+\renewcommand{\thesection}{\Alph{section}}
+```
+```{=tex}
+\setcounter{table}{0}
+\renewcommand{\thetable}{A\arabic{table}}
+```
+```{=tex}
+\setcounter{figure}{0}
+\renewcommand{\thefigure}{A\arabic{figure}}
+```
+
