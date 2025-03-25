@@ -3,12 +3,10 @@ This repository aims to build a comprehensive literature review of the economics
 
 Official launch day of project will be the first of May in 2025, releasing v0.1.0.
 
-Project lead and corresponding author: Aaron Lohmann. 
-
 All other authors in decreasing order of contribution measured by amount of approved pull requests. 
 
 Contributions should be made in the form of pull requests. Co-authorship granted upon two aproved pull requests.
 
-Unless stated otherwise, this will be a living document.
+Unless stated otherwise, this will be a living document and continously updated. Every 3 month, a version will be published as a GitHub release. These versions can be cited. 
 
-
+Project lead and corresponding author: Aaron Lohmann. 
