@@ -70,6 +70,9 @@ See @schueller2022
 
 # Geographical composition and team formation {#sec-teams}
 
+@goldbeck2025bit concentrats on software developers in the U.S. Using the self-reported locations, develoepers are matched to 179 economic areas in the U.S. Running gravity-style regressions, the author finds sizable colocation effects. However, this effect is much smaller than that of traditional inventor networks. For developers with joint organizational membership or those collaborting on high quality projects, measured by stars, the distance elasticity is found to be weaker. 
+
+
 # Team outcomes {#sec-outcomes}
 
 
