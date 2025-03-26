@@ -63,15 +63,14 @@ Theoretical contributions which directly answer questions about OSS.
 
 What datasets are out there to study OSS? What are benefits of one versus the other? 
 
-See @schueller2022
+@schueller2022 provide detailed data on one particular ecosystem: Rust and its associated package manager crates.io. The data covers a time period from early $2014$ all the way till September $2022$. Given the relative youth of Rust, this can be seen as representative of the full history of the language. The data covers commits, issues, pull requests, importantly dependency relationships betwenn packages. Unique in this list of datasets, the authors also provide data from other code hosting platforms outside GitHub: Gitlab, Bitbucket and the likes. This dataset is well suited for more concentrated deep micro data work given the careful construction. 
 
 
 # The value of OSS {#sec-value}
 
 # Geographical composition and team formation {#sec-teams}
 
-@goldbeck2025bit concentrats on software developers in the U.S. Using the self-reported locations, develoepers are matched to 179 economic areas in the U.S. Running gravity-style regressions, the author finds sizable colocation effects. However, this effect is much smaller than that of traditional inventor networks. For developers with joint organizational membership or those collaborting on high quality projects, measured by stars, the distance elasticity is found to be weaker. 
-
+@goldbeck2025bit concentrats on software developers in the U.S. Using the self-reported locations, develoepers are matched to 179 economic areas. Running gravity-style regressions, the author finds sizable colocation effects. However, this effect is much smaller than that of traditional inventor networks as for example in patenting. For developers with joint organizational membership or those collaborting on high quality projects, measured by stars, the colocation effect is found to be weaker.
 
 # Team outcomes {#sec-outcomes}
 
