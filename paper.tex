@@ -200,7 +200,7 @@ Alternatively, to:
 
   \author{aaron-lohmann}
   
-\date{2025-03-25}
+\date{2025-03-27}
 \begin{document}
 \maketitle
 \begin{abstract}
@@ -269,20 +269,37 @@ Theoretical contributions which directly answer questions about OSS.
 What datasets are out there to study OSS? What are benefits of one
 versus the other?
 
-See Schueller et al. (\citeproc{ref-schueller2022}{2022})
+Schueller et al. (\citeproc{ref-schueller2022}{2022}) provide detailed
+data on one particular ecosystem: Rust and its associated package
+manager crates.io. The data covers a time period from early \(2014\) all
+the way till September \(2022\). Given the relative youth of Rust, this
+can be seen as representative of the full history of the language. The
+data covers commits, issues, pull requests, importantly dependency
+relationships betwenn packages. Unique in this list of datasets, the
+authors also provide data from other code hosting platforms outside
+GitHub: Gitlab, Bitbucket and the likes. This dataset is well suited for
+more concentrated deep micro data work given the careful construction.
 
 \section{The value of OSS}\label{sec-value}
+
+Hoffmann, Nagle, and Zhou (\citeproc{ref-hoffmann2024value}{2024}) is an
+effort in measuring the value of OSS. The authors identify \(2,000\)
+(\(1,000\) from NPM and \(1,000\) from non-NPM) key packages in the OSS
+infrastructure. For those they map supply side costs of creation and a
+demand side value based on firms and websites using these packages.
+Their preferred estimate for the supply side value is \(4.15\) billion
+USD and demand side value greater than \(8.8\) trillion USD.
 
 \section{Geographical composition and team formation}\label{sec-teams}
 
 Goldbeck (\citeproc{ref-goldbeck2025bit}{2025}) concentrats on software
 developers in the U.S. Using the self-reported locations, develoepers
-are matched to 179 economic areas in the U.S. Running gravity-style
-regressions, the author finds sizable colocation effects. However, this
-effect is much smaller than that of traditional inventor networks. For
-developers with joint organizational membership or those collaborting on
-high quality projects, measured by stars, the distance elasticity is
-found to be weaker.
+are matched to 179 economic areas. Running gravity-style regressions,
+the author finds sizable colocation effects. However, this effect is
+much smaller than that of traditional inventor networks as for example
+in patenting. For developers with joint organizational membership or
+those collaborting on high quality projects, measured by stars, the
+colocation effect is found to be weaker.
 
 \section{Team outcomes}\label{sec-outcomes}
 
@@ -295,6 +312,11 @@ Goldbeck, Moritz. 2025. {``Bit by Bit: Colocation and the Death of
 Distance in Software Developer Networks.''} \emph{Journal of Economic
 Geography}, lbaf002.
 
+\bibitem[\citeproctext]{ref-hoffmann2024value}
+Hoffmann, Manuel, Frank Nagle, and Yanuo Zhou. 2024. {``The Value of
+Open Source Software.''} \emph{Harvard Business School Strategy Unit
+Working Paper}, no. 24-038.
+
 \bibitem[\citeproctext]{ref-schueller2022}
 Schueller, William, Johannes Wachs, Vito D. P. Servedio, Stefan Thurner,
 and Vittorio Loreto. 2022. {``Evolving Collaboration, Dependencies, and
@@ -302,6 +324,15 @@ Use in the Rust Open Source Software Ecosystem.''} \emph{Scientific
 Data} 9 (1): 703. \url{https://doi.org/10.1038/s41597-022-01819-z}.
 
 \end{CSLReferences}
+
+\setcounter{section}{0}
+\renewcommand{\thesection}{\Alph{section}}
+
+\setcounter{table}{0}
+\renewcommand{\thetable}{A\arabic{table}}
+
+\setcounter{figure}{0}
+\renewcommand{\thefigure}{A\arabic{figure}}
 
 
 

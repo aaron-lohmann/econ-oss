@@ -68,6 +68,8 @@ What datasets are out there to study OSS? What are benefits of one versus the ot
 
 # The value of OSS {#sec-value}
 
+@hoffmann2024value is an effort in measuring the value of OSS. The authors identify $2,000$ ($1,000$ from NPM and $1,000$ from non-NPM) key packages in the OSS infrastructure. For those they map supply side costs of creation and a demand side value based on firms and websites using these packages. Their preferred estimate for the supply side value is $4.15$ billion USD and demand side value greater than $8.8$ trillion USD.
+
 # Geographical composition and team formation {#sec-teams}
 
 @goldbeck2025bit concentrats on software developers in the U.S. Using the self-reported locations, develoepers are matched to 179 economic areas. Running gravity-style regressions, the author finds sizable colocation effects. However, this effect is much smaller than that of traditional inventor networks as for example in patenting. For developers with joint organizational membership or those collaborting on high quality projects, measured by stars, the colocation effect is found to be weaker.
