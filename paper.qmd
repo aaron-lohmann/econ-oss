@@ -76,7 +76,7 @@ What datasets are out there to study OSS? What are benefits of one versus the ot
 
 # Team outcomes {#sec-outcomes}
 
-
+@betti2024dynamics study team dynamics with a special emphasis on leaders. Builiding on the data by @schueller2022 they identify leaders of projects and reveal that often the workload is highly heterogeneous. In teams of $5$ to $7$, the leader roughly does $80$ per cent of the commits. More hetereogenous effort distribution is correlated with higher success. Finally, they study changes in leaderships and reveal that subsequent to a change in leadership the success of the project inc
 
 
 
